@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RatingBar
+        android:id="@+id/ratingBarAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="15dp"
+        android:numStars="5" />
+
+    <EditText
+        android:id="@+id/company_comment_ed"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/ratingBarAlert"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:hint="Yorumu gir"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textview_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_comment_ed"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="0/500"
+        android:textSize="14dp" />
+
+</RelativeLayout>

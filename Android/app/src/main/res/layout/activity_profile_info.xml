@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.ProfileInfoActivity">
+
+    <ImageButton
+        android:id="@+id/profile_info_close"
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_close" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/profile_info_close"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="18dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TEMEL BİLGİLER"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Ad"
+                android:textColor="@color/grey"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableRight="@drawable/ic_edit"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <include layout="@layout/view" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Soyad"
+                android:textColor="@color/grey"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/profile_surname"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+
+                android:drawableRight="@drawable/ic_edit"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <include layout="@layout/view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Doğum Tarihi"
+                android:textColor="@color/grey"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/profile_birth"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+
+                android:drawableRight="@drawable/ic_edit"
+                android:text="-"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <include layout="@layout/view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="İLETİŞİM BİLGİLERİ"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Telefon Numarası"
+                android:textColor="@color/grey"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/profile_phone"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableRight="@drawable/ic_edit"
+                android:text="-"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <include layout="@layout/view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Email Adresi"
+                android:textColor="@color/grey"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableRight="@drawable/ic_edit"
+                android:text="-"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <include layout="@layout/view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Website Adresi"
+                android:textColor="@color/grey"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/profile_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableRight="@drawable/ic_edit"
+                android:text="-"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <include layout="@layout/view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="EĞİTİM BİLGİLERİ"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Şurada okuyor"
+                android:textColor="@color/grey"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/profile_education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableRight="@drawable/ic_edit"
+                android:text="-"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <include layout="@layout/view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="İŞ BİLGİLERİ"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Ünvan"
+                android:textColor="@color/grey"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/profile_unvan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableRight="@drawable/ic_edit"
+                android:text="-"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <include layout="@layout/view" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

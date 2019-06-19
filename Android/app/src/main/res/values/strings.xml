@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SeniorProject</string>
+
+    <string name="host">192.168.43.38</string>
+    <string name="port">80</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="sectors">
+        <item>Sektör seçin</item>
+        <item>Bilişim</item>
+        <item>Çevre</item>
+        <item>Denizcilik</item>
+        <item>Eğitim</item>
+        <item>Eğlence</item>
+        <item>Elektrik</item>
+        <item>Gıda</item>
+        <item>Medya</item>
+        <item>Otomotiv</item>
+        <item>Reklam</item>
+        <item>Sağlık</item>
+        <item>Turizm</item>
+        <item>Diğer</item>
+    </string-array>
+
+</resources>

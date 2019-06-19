@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/company_post"
+        android:icon="@drawable/ic_menu"
+        android:title="Gönderiler" />
+    <item
+        android:id="@+id/company_users"
+        android:icon="@drawable/ic_group"
+        android:title="Çalışanlar" />
+    <item
+        android:id="@+id/company_comment"
+        android:icon="@drawable/ic_message"
+        android:title="Yorumlar" />
+
+    <item
+        android:id="@+id/company_info"
+        android:icon="@drawable/ic_info"
+        android:title="Bilgiler" />
+</menu>

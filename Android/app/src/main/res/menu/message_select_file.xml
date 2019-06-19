@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/message_image_file"
+        android:icon="@drawable/ic_gallery"
+        android:title="Resim dosyası" />
+
+    <item
+        android:id="@+id/message_video_file"
+        android:icon="@drawable/ic_video"
+        android:title="Video dosyası" />
+    <item
+        android:id="@+id/message_audio_file"
+        android:icon="@drawable/ic_audio"
+        android:title="Ses dosyası" />
+</menu>

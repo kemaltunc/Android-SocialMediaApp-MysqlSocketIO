@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowPhotoActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/profile_image_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000"
+        app:subtitleTextColor="#fff"
+        app:theme="@style/ToolbarStyle"
+        app:titleTextColor="#fff" />
+
+    <ImageView
+        android:id="@+id/show_profile_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/profile_image_toolbar"
+        android:background="#000"
+        android:fitsSystemWindows="true" />
+</RelativeLayout>
